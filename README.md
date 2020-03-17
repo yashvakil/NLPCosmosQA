@@ -7,7 +7,7 @@ COSMOS QA: Machine Reading Comprehension with Contextual Commonsense Reasoning
 Model and Approach Analysis:
 There are two types of Baseline models. Reading Comprehensions and modifications on it and pretrained models.
 1.	Sliding Windows
-2.	2.Stanford Active Reader
+2.	Stanford Active Reader
 3.	Gated Attention Reader
 4.	Co Matching
 5.	Common Sense RC
@@ -51,7 +51,6 @@ In 33% of the errors, the model mistakenly select the choice which is not consis
 *	Unanswerable Questions
 
 14% of the errors are from unanswerable questions so model cannot infer from given multiple answers.
-
 
 
 ### Generative models to infer answers ###
