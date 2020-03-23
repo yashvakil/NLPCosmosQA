@@ -18,7 +18,6 @@
 5. Now understand the logic behind using multiway attention model provided in [CosmosQA](https://arxiv.org/abs/1909.00277) and plan to implement it with more advanced models.
 
 #### Avatar Jaykrushna :
-### Basic analysis and Literature Review 
 1. Read the paper of [CosmosQA](https://arxiv.org/abs/1909.00277) to learn more about the dataset and [BERT](https://arxiv.org/abs/1810.04805) to get a ground level understanding of the BERT model.
 2. Ran the Bert base code given in the project resources to understand the implementation of BERT.  
 3. Explored a new possibility of Implementing K adapters in the Bert Pretrained Model by reading the K-Adapters Model.
@@ -26,6 +25,7 @@
 5. Ran the DistilBERT code on Google Colab with different settings.
 6. Trying to implement RoBerta on Google Colab.
 
+### Basic analysis and Literature Review 
 COSMOS QA: Machine Reading Comprehension with Contextual Commonsense Reasoning
 
 Model and Approach Analysis:
