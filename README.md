@@ -43,13 +43,13 @@ Ablation is also one of the important parts of the study where ablation of quest
 
 ---
 
-### Knowledge Transfer Learning ###
+#### Knowledge Transfer Learning ###
 
 Knowledge transfer and finetuning on various datasets of same kind help a lot to improve inference. Authors have proposed two datasets RACE and SWAG which contains multiple choice questions, and fine tuning of BERT on both Race + SWAG and Cosmos. BERT-FT on SWAG provides good result while including with BERT FT RACE+SWAG which gives 68.7 percent test accuracy
 
 ---
 
-### Error Analysis
+#### Error Analysis
 
 * Complex context understanding 
 
@@ -70,6 +70,6 @@ In 33% of the errors, the model mistakenly select the choice which is not consis
 14% of the errors are from unanswerable questions so model cannot infer from given multiple answers.
 
 
-### Generative models to infer answers ###
+#### Generative models to infer answers ###
 
 Fine tuning on GPT and GPT-2 can provide better understanding and provide more accurate answer which can be consider as one of the different approach.
