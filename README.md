@@ -1,11 +1,28 @@
 # NLPCosmosQA
 
-### Basic analysis
+### Progress
+1. Read [CosmosQA](https://arxiv.org/abs/1909.00277) paper to get deep understanding of paper concepts.
+2. Run [Wilburone's model](https://github.com/samkit27/NLPCosmosQA/tree/master/wilburone/cosmosqa-master) as a baseline model
+3. Read Papers of DistilBERT and RoBERTa and try to implement them.
+4. Run DistilBERT model sucessfully.
+5. Implementation of Roberta model is going on.
+6. Error Analysis is distributed among team members and plan to seperate observations accroding to error analysis type provided in basic analysis section.
+
+### Contribution Info 
+
+#### Samkit Shah : 
+1. Read paper of [CosmosQA](https://arxiv.org/abs/1909.00277) , [BERT](https://arxiv.org/abs/1810.04805) to get deep understanding of paper concepts
+2. Get information of basic methods used in comprehension and Question answering based problems and stated it with error analysis in basic analysis section.
+3. Run [Wilburone's model](https://github.com/samkit27/NLPCosmosQA/tree/master/wilburone/cosmosqa-master) as a baseline model in the local system as well as on [Google Colab](https://colab.research.google.com/drive/1hJrzJutH7bKQ9r-wVQ9BqVxiLUE9qZOQ) by trying various batchsize, learning rates and epochs.
+4. Modified the code and Run Distilbert model and saved results in Result folder.
+5. Now understand the logic behind using multiway attention model provided in [CosmosQA](https://arxiv.org/abs/1909.00277) and plan to implement it with more advanced models.
+
+### Basic analysis and Literature Review 
 
 COSMOS QA: Machine Reading Comprehension with Contextual Commonsense Reasoning
 
 Model and Approach Analysis:
-There are two types of Baseline models. Reading Comprehensions and modifications on it and pretrained models.
+There are two types of Baseline models. Reading Comprehensions and modifications on it and pretrained models, which are used as a general approaches for this problems.
 1.	Sliding Windows
 2.	Stanford Active Reader
 3.	Gated Attention Reader
