@@ -25,6 +25,16 @@
 5. Ran the DistilBERT code on Google Colab with different settings.
 6. Trying to implement RoBerta on Google Colab.
 
+#### Yash Vakil :
+1. Read paper of [CosmosQA](https://arxiv.org/abs/1909.00277) , [BERT](https://arxiv.org/abs/1810.04805) to get an overall understanding of the base model of our implementation.
+2. Ran the DistilBERT code on local system.
+3. Read the [LSTMJump](https://arxiv.org/pdf/1704.06877.pdf), and [SkimRNN](https://arxiv.org/abs/1711.02085) to find ways to augment the information used as the input to the BERT model.
+4. Formualized idea to make changes in DistilBERT using the analysis of Base BERT model to conclusion faster.
+5. Currently conducting Error Analysis on the output of the model.
+6. Planning to implement multiway attention model of [CosmosQA](https://arxiv.org/abs/1909.00277) for DistilBERT
+7. Looking to make changes in the model apart from data augmentation to increase accuracy.
+
+
 ### Basic analysis and Literature Review 
 COSMOS QA: Machine Reading Comprehension with Contextual Commonsense Reasoning
 
