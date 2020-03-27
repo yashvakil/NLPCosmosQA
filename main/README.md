@@ -4,7 +4,7 @@ This repository includes the source code and data for Cosmos QA.
 
 To run code of distilbert, few changes are necessary,
 1. Import model file as modelling_distil to import BertMultiwayattention model which is same as bert
-2. Download tar file for distilebert from [here](https://drive.google.com/file/d/10gLGcxPNaNorV2hF8Msr_XF4O7N8pgN5/view?usp=sharing) and set path in modelling file to run it.
+2. Download tar file for distil bert from [here](https://drive.google.com/file/d/10gLGcxPNaNorV2hF8Msr_XF4O7N8pgN5/view?usp=sharing) and set path in modelling file to run it.
 
 ## Project Page and Leaderboard
 
