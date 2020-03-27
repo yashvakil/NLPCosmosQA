@@ -34,6 +34,24 @@
 6. Planning to implement multiway attention model of [CosmosQA](https://arxiv.org/abs/1909.00277) for DistilBERT
 7. Looking to make changes in the model apart from data augmentation to increase accuracy.
 
+#### Pushparajsinh Zala:
+1. Read following papers
+  - CosmosQA
+  - BERT, RoBERTa
+  - Natural Language QA Approaches using Reasoning with External Knowledge (Chitta Baral, Pratyay Banerjee, Kuntal Kumar Pal, Arindam Mitra)
+  - ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning
+2. Other preparations
+  - PyTorch basics
+  - huggingface: transformers, tokenizers code walkthrough
+3. Understanding dataset and project setup for base model implementation(wilburOne/CosmosQA)
+4. Run Wilburone repo base implementation [Wilburone's model](https://github.com/samkit27/NLPCosmosQA/tree/master/wilburone/cosmosqa-master)
+  - Code changes to remove various error & adapting local machine
+  - First successful Run after many code changes
+  - Tried different hyper-parameters for optimized run selection for local configuration we have(limited GPU)
+5. Error analysis in progress for BERT vs DistilBERT base model run
+6. Ideation for various other method to increase model knowledge. some papers for ideas:
+  - Structural Scaffolds for Citation Intent Classification in Scientific Publications - https://arxiv.org/abs/1904.01608 (here authours are adding two extra tasks(scaffolds) apart from main task on top of BiLSTM-Attn. similar techniqes can be applied here with adding more features on top of BERT.)
+  - 
 
 ### Basic analysis and Literature Review 
 COSMOS QA: Machine Reading Comprehension with Contextual Commonsense Reasoning
