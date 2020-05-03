@@ -18,6 +18,7 @@
 4. Modified the code and Run Distilbert model and saved results in Result folder.
 5. Now understand the logic behind using multiway attention model provided in [CosmosQA](https://arxiv.org/abs/1909.00277) and plan to implement it with more advanced models.
 6. Worked to understand Roberta Multiway attention and trained model and Extract Analysis where both bert and Roberta goes wrong .
+7.  Worked on Knowldege infusion via finetune BERT on socialiqa dataset and then run cosmosqa on top of it.
 
 #### Avatar Jaykrushna :
 1. Read the paper of [CosmosQA](https://arxiv.org/abs/1909.00277) to learn more about the dataset and [BERT](https://arxiv.org/abs/1810.04805) to get a ground level understanding of the BERT model.
