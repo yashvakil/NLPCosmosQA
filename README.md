@@ -3,10 +3,11 @@
 ### Progress
 1. Read [CosmosQA](https://arxiv.org/abs/1909.00277) paper to get deep understanding of paper concepts.
 2. Run [Wilburone's model](https://github.com/samkit27/NLPCosmosQA/tree/master/wilburone/cosmosqa-master) as a baseline model
-3. Read Papers of DistilBERT and RoBERTa and try to implement them.
+3. Read Papers of DistilBERT and RoBERTa and implemented them.
 4. Run DistilBERT model sucessfully.
-5. Implementation of Roberta model is going on.
+5. Implemented Roberta Large Multiway attention which gave 79.22% results with text simillarity module to extract important knowledge from the given context.
 6. Error Analysis is distributed among team members and plan to seperate observations accroding to error analysis type provided in basic analysis section.
+7. [Results](https://github.com/yashvakil/NLPCosmosQA/tree/master/results) and [Analysis](https://github.com/yashvakil/NLPCosmosQA/tree/master/analysis) included.
 
 ### Contribution Info 
 
@@ -16,6 +17,7 @@
 3. Run [Wilburone's model](https://github.com/samkit27/NLPCosmosQA/tree/master/wilburone/cosmosqa-master) as a baseline model in the local system as well as on [Google Colab](https://colab.research.google.com/drive/1hJrzJutH7bKQ9r-wVQ9BqVxiLUE9qZOQ) by trying various batchsize, learning rates and epochs.
 4. Modified the code and Run Distilbert model and saved results in Result folder.
 5. Now understand the logic behind using multiway attention model provided in [CosmosQA](https://arxiv.org/abs/1909.00277) and plan to implement it with more advanced models.
+6. Worked to understand Roberta Multiway attention and trained model and Extract Analysis where both bert and Roberta goes wrong .
 
 #### Avatar Jaykrushna :
 1. Read the paper of [CosmosQA](https://arxiv.org/abs/1909.00277) to learn more about the dataset and [BERT](https://arxiv.org/abs/1810.04805) to get a ground level understanding of the BERT model.
