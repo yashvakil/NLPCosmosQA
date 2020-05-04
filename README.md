@@ -40,6 +40,8 @@ python run_roberta.py --task_name "commonsenseqa" --do_eval --load_model --do_lo
 5. Currently conducting Error Analysis on the output of the model.
 6. Planning to implement multiway attention model of [CosmosQA](https://arxiv.org/abs/1909.00277) for DistilBERT
 7. Looking to make changes in the model apart from data augmentation to increase accuracy.
+8. Completed my part of the the Error Analysis on Roberta-large's predictions.
+9. Implemented Text Similarity and Summarization code and analyzed a threshold value for context truncation.
 
 #### Pushparajsinh Zala:
 1. Read following papers
