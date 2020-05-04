@@ -8,6 +8,10 @@
 5. Implemented Roberta Large Multiway attention which gave 79.22% results with text simillarity module to extract important knowledge from the given context.
 6. Error Analysis is distributed among team members and plan to seperate observations accroding to error analysis type provided in basic analysis section.
 7. [Results](https://github.com/yashvakil/NLPCosmosQA/tree/master/results) and [Analysis](https://github.com/yashvakil/NLPCosmosQA/tree/master/analysis) included.
+8. Download [trained](https://drive.google.com/file/d/1U95I1Msy153N33pn40itfutGFJSL6wBS/view?usp=sharing) model and evaluate it using
+python run_roberta.py --task_name "commonsenseqa" --do_eval --load_model --do_lower_case --roberta_model roberta-large --data_dir data/ --max_seq_length 220  --gradient_accumulation_steps=10  --output_dir output_path_bin_file --seed 7 --fp16
+
+
 
 ### Contribution Info 
 
