@@ -34,7 +34,7 @@ python run_roberta.py --task_name "commonsenseqa" --do_eval --load_model --do_lo
 7. Implemented the RoBERTa-large model on google colab.
 8. Researched about generative models for implementation but did not move forward due to complications.
 9. Read about text fooler and tried to make it work on implementation level but did not succeed.
-10. Implemented Query based Text Similarity to summarize context which led to minor improvement in the preformance of model and tried to implement complete Text Summarization of the context. 
+10. Implemented Query based Text Similarity to summarize context which led to minor improvement in the performance of model and tried to implement complete Text Summarization of the context. 
 
 #### Yash Vakil :
 1. Read paper of [CosmosQA](https://arxiv.org/abs/1909.00277) , [BERT](https://arxiv.org/abs/1810.04805) to get an overall understanding of the base model of our implementation.
