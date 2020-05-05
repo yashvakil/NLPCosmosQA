@@ -61,9 +61,11 @@ python run_roberta.py --task_name "commonsenseqa" --do_eval --load_model --do_lo
     - Code changes to remove various error & adapting local machine
     - First successful Run after many code changes
     - Tried different hyper-parameters for optimized run selection for local configuration we have(limited GPU)
-5. Error analysis in progress for BERT vs DistilBERT base model run
+5. Error analysis done for BERT vs DistilBERT base model run
 6. Ideation for various other method to increase model knowledge. some papers for ideas:
     - Structural Scaffolds for Citation Intent Classification in Scientific Publications - https://arxiv.org/abs/1904.01608 (here authours are adding two extra tasks(scaffolds) apart from main task on top of BiLSTM-Attn. similar techniqes can be applied here with adding more features on top of BERT.)
+7. Error analysis done for BERT vs DistilBERT base model run
+8. Model implementations with changes
 
 
 ### Basic analysis and Literature Review 
